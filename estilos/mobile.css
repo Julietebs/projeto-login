@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+@font-face {
+    font-family: login;
+    src: url(../LasAmericas_PERSONAL_USE_ONLY.otf);
+}
+
+body{
+    background-image: linear-gradient(to bottom,#aae0f0,#50a4cb, #0f3a53 );
+    background-position: fixed;
+    height: 100vh;
+    position: relative;
+}
+main{
+    background-color: white;
+    height: 670px;
+    width: 310px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 0px;
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.547);
+}
+
+span{
+    color: white;
+    padding: 10px;
+    
+}
+img{
+    margin: 0px;
+    padding: 0px;
+    width: 310px;
+    border-radius: 15px 15px 0px 0px;
+    height: 270px;
+    
+}
+#um{
+    background-color:#0f3a53;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+#dois{
+    background-color:#0f3a53;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+#mail{
+    height: 45px;
+    width: 230px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #aae0f0;
+}
+#contraseña{
+    height: 45px;
+    width: 230px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #aae0f0;
+}
+::placeholder{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'login';
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+p{
+    text-align: justify;
+    padding: 15px;
+    font-size: 0.9em;
+    
+}
+#identrar{
+    width: 310px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #74adc7;
+    color: white;
+}
+#idreset{
+    padding: 10px;
+    border-radius: 8px;
+   
+    background-color: white;
+    color: #0f3a53;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#enter{
+    background-color: #74adc7;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#enter:hover{
+    cursor: pointer;
+    background-color: #0f3a53;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#reset{
+    background-color: #ffffff;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 1.3em;
+    color: #74adc7;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+#reset:hover{
+    background-color: #57bcd8;
+    color: #0f3a53;
+    
+}
+
+
